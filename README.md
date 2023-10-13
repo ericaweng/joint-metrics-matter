@@ -2,7 +2,12 @@
 This repository contains the code for the ICCV 2023 paper: 
 [Joint Metrics Matter: A Better Standard for Trajectory Forecasting](https://arxiv.org/abs/2305.06292).
 
-In the paper, we evaluate 6 baselines with respect to joint metrics (described in Sec. 3 of the paper) 
+SOTA Trajectory Forecasting baselines like AgentFormer optimize for per-agent minimum displacement error metrics such as ADE. 
+Our method, Joint AgentFormer is optimized for multi-agent minimum displacement error metrics such as JADE -- _Joint_ ADE.
+
+![Joint AgentFormer](https://github.com/ericaweng/Joint_AgentFormer/assets/12485287/8c151916-82d7-45d6-9842-25c15f3c3d45)
+
+We evaluate 6 baselines with respect to joint metrics (described in Sec. 3 of the paper) 
 and perform improvements with respect to 2 (AgentFormer and View Vertically). 
 The code for all evaluated methods (S-GAN, Trajectron++, View Vertically, MemoNet, 
 AgentFormer, Joint AgentFormer) are added as submodules in the `methods/` directory.
