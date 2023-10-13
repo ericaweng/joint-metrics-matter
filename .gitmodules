@@ -1,0 +1,15 @@
+[submodule "methods/sgan"]
+	path = methods/sgan
+	url = https://github.com/ericaweng/sgan
+[submodule "methods/Trajectron-plus-plus"]
+	path = methods/Trajectron-plus-plus
+	url = https://github.com/ericaweng/Trajectron-plus-plus
+[submodule "methods/Vertical"]
+	path = methods/Vertical
+	url = https://github.com/ericaweng/Vertical
+[submodule "methods/Memonet"]
+	path = methods/Memonet
+	url = https://github.com/ericaweng/Memonet
+[submodule "methods/Joint_AgentFormer"]
+	path = methods/Joint_AgentFormer
+	url = https://github.com/ericaweng/Joint_AgentFormer
