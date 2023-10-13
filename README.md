@@ -112,8 +112,4 @@ Pre-trained models are publicly available for S-GAN, View Vertically, AgentForme
 and MemoNet via the submodules; see instructions for downloading them in the respective 
 READMEs within the submodule for each method.
 
-We also include our own pre-trained models for Trajectron++, Y-Net, and PECNet,
-due to training differences with the original works (we don't use visual scene information).
-You will need to install [Git LFS](https://git-lfs.com/) to download these.
-
 Joint View Vertically models will also be made available.
